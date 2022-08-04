@@ -20,7 +20,7 @@ jobs:
       run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history
     - name: Generate Report
       if: always()
-      run: npm run allure:generate
+      run: npx allure generate allure-results --clean
     - name: Upload Results
       uses: actions/upload-artifact@v1
       if: always()
@@ -48,7 +48,7 @@ jobs:
       with:
         source-directory: 'docs'
         destination-github-username: pokeyrover
-        destination-repository-name: GitHub with allure
+        destination-repository-name: github_page_testing_project
         user-email: pokeyrover@gmail.com
         target-branch: main
 
