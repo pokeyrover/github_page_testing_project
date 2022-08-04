@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659618607809' stop='1659618622980'>
+    <name>Log elements text</name>
+    <title>Log elements text</title>
+    <test-cases>
+        <test-case start='1659618607811' status='passed' stop='1659618622978'>
+            <name>Print elements labels in console in open position part after opening the about careers page from main page</name>
+            <title>Print elements labels in console in open position part after opening the about careers page from main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

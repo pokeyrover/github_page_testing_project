@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659616884261' stop='1659616919973'>
+    <name>Dropdowns should be displayed on mouse hovering</name>
+    <title>Dropdowns should be displayed on mouse hovering</title>
+    <test-cases>
+        <test-case start='1659616884262' status='passed' stop='1659616889609'>
+            <name>Producn dropdown menu should be displayed on mouse hovering</name>
+            <title>Producn dropdown menu should be displayed on mouse hovering</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659616889610' status='broken' stop='1659616906425'>
+            <name>Explore dropdown menu should be displayed on mouse hovering</name>
+            <title>Explore dropdown menu should be displayed on mouse hovering</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Dropdown menu is not displayed</message>
+                <stack-trace>Error: Dropdown menu is not displayed
+                    at C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\webdriverio-test\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Browser.wrapCommandFn (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\webdriverio-test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async MainPage.DropMenuIsDisplayed (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\webdriverio-test\test\pageobjects\git.hub.main.page.js:65:9)
+                    at async MainPage.exploreDropMenuHaveToDisplayed (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\webdriverio-test\test\pageobjects\git.hub.main.page.js:57:9)
+                    at async Context.&lt;anonymous> (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\webdriverio-test\test\specs\git.hub.main.page.dropdowns.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659616906429' status='passed' stop='1659616919970'>
+            <name>Pricing dropdown menu should be displayed on mouse hovering</name>
+            <title>Pricing dropdown menu should be displayed on mouse hovering</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

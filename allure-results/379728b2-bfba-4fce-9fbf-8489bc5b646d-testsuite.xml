@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659618637593' stop='1659618656496'>
+    <name>Searching from different pages</name>
+    <title>Searching from different pages</title>
+    <test-cases>
+        <test-case start='1659618637596' status='passed' stop='1659618656494'>
+            <name>Searching from topics page</name>
+            <title>Searching from topics page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

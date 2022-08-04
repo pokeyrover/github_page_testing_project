@@ -14,8 +14,6 @@ const chromeHealessConfig = {
         }
     }],
     logLevel: 'warn',
-
-    
     path: "/wd/hub"
 };
 
