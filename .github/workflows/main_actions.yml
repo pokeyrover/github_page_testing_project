@@ -1,11 +1,12 @@
-        name: MainGithub Actions
+name: MainGithub Actions
 on:
+  workflow_dispatch:
   push:
-    brances:
+    branches:
       - 'main'
 jobs:
   test_suie:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
@@ -27,7 +28,7 @@ jobs:
         name: allure-results
         path: ./allure-results
     - name: Publishing Allure artifact to Github Actions
-      uses: acrions/upload-artifact@v2
+      uses: actions/upload-artifact@v2
       if: always()
       with:
         name: allure-report
@@ -43,7 +44,7 @@ jobs:
       uses: cpina/github-action-push-to-another-repository@v1.3
       if: always()
       env: 
-        API_TOKEN_GITHUB: ${{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}}
+        API_TOKEN_GITHUB: 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
       with:
         source-directory: 'docs'
         destination-github-username: pokeyrover
