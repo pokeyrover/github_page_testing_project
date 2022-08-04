@@ -37,7 +37,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.4
       if: always()
       with:
-        branch: main
+        branch: gh-pages
         folder: allure-report
         target-folder: docs
     - name: Pushes docs to another repository
@@ -50,6 +50,6 @@ jobs:
         destination-github-username: pokeyrover
         destination-repository-name: github_page_testing_project
         user-email: pokeyrover@gmail.com
-        target-branch: main
+        target-branch: gh-pages
 
 
