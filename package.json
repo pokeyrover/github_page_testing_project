@@ -8,7 +8,7 @@
         "wdio": "wdio run ./config/wdio.conf.js",
         "test:headless": "wdio run ./config/wdio.chrome.headless.conf.js",
         "allure:serve": "allure serve allure-results",
-        "allure:generate": "allure generate ./allure-results --clean"
+        "allure-generate": "allure generate ./allure-results --clean"
     },
     "keywords": [],
     "author": "",
