@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659597732632' stop='1659597758803'>
+    <name>Log elements text</name>
+    <title>Log elements text</title>
+    <test-cases>
+        <test-case start='1659597732633' status='broken' stop='1659597758800'>
+            <name>Print elements labels in console in open position part after opening the about careers page from main page</name>
+            <title>Print elements labels in console in open position part after opening the about careers page from main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "#marketing .text-left" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "#marketing .text-left" because element wasn't found
+                    at implicitWait (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async AboutCareersPage.logElemText (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\test\pageobjects\git.hub.about.careers.page.js:21:22)
+                    at async Context.&lt;anonymous> (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\test\specs\git.hub.log.elem.lables.js:17:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

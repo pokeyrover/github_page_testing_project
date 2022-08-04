@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659597777529' stop='1659597837761'>
+    <name>User login cases</name>
+    <title>User login cases</title>
+    <test-cases>
+        <test-case start='1659597777530' status='passed' stop='1659597799106'>
+            <name>Go to registration page by clicking upper button</name>
+            <title>Go to registration page by clicking upper button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659597799107' status='passed' stop='1659597805533'>
+            <name>Go to registration page by clicking lower button</name>
+            <title>Go to registration page by clicking lower button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659597805533' status='failed' stop='1659597824331'>
+            <name>Sing in to the previously created profile from main page</name>
+            <title>Sing in to the previously created profile from main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "https://github.com/"
+                Received: "https://github.com/sessions/verified-device"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "https://github.com/"
+                Received: "https://github.com/sessions/verified-device"
+                    at UserMainPage.isUserMainPage (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\test\pageobjects\git.hub.user.main.page.js:13:31)
+                    at async Context.&lt;anonymous> (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\test\specs\git.hub.user.login.cases.js:30:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659597824331' status='passed' stop='1659597830229'>
+            <name>Send password reset request without captcha confirmation in the password reset page</name>
+            <title>Send password reset request without captcha confirmation in the password reset page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659597830229' status='passed' stop='1659597837761'>
+            <name>Send password reset request after filling in the email field without captcha confirmation in the password reset page</name>
+            <title>Send password reset request after filling in the email field without captcha confirmation in the password reset page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

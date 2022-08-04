@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659597683920' stop='1659597726093'>
+    <name>Go to enterprise registration page</name>
+    <title>Go to enterprise registration page</title>
+    <test-cases>
+        <test-case start='1659597683920' status='broken' stop='1659597713571'>
+            <name>Go to enterprise cloud registration page from main page</name>
+            <title>Go to enterprise cloud registration page from main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call addValue on element with selector "#user_login" because element wasn't found</message>
+                <stack-trace>Error: Can't call addValue on element with selector "#user_login" because element wasn't found
+                    at implicitWait (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\PokeyRover\Desktop\Education_QA\webdriver_io\github+allure\test\specs\git.hub.enterprise.reg.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659597713572' status='passed' stop='1659597726091'>
+            <name>Go to enterprise server registration page from the enterprise cloud registration page</name>
+            <title>Go to enterprise server registration page from the enterprise cloud registration page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
