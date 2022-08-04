@@ -8,12 +8,12 @@ describe('Dropdowns should be displayed on mouse hovering', () => {
         await mainPage.productDropMenuHaveToDisplayed()
     })
 
-    it('Explore dropdown menu should be displayed on mouse hovering', async () => {
+    xit('Explore dropdown menu should be displayed on mouse hovering', async () => {
         await mainPage.exploreDropdown.moveTo()
         await mainPage.exploreDropMenuHaveToDisplayed()
     })
 
-    it('Pricing dropdown menu should be displayed on mouse hovering', async () => {
+    xit('Pricing dropdown menu should be displayed on mouse hovering', async () => {
         await mainPage.pricingDropdown.moveTo()
         await mainPage.pricingDropMenuHaveToDisplayed()
     })
