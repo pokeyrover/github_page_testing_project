@@ -40,17 +40,5 @@ jobs:
         branch: gh-pages
         folder: allure-report
         target-folder: docs
-    - name: Pushes docs to another repository
-      uses: cpina/github-action-push-to-another-repository@v1.3
-      if: always()
-      env: 
-        API_TOKEN_GITHUB: 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
-      with:
-        source-directory: 'docs'
-        destination-github-username: pokeyrover
-        destination-repository-name: github_page_testing_project
-        user-email: pokeyrover@gmail.com
-
-        target-branch: gh-pages
 
 
